@@ -3,19 +3,15 @@
 
 <head>
 
-    <title>Ristorante Con Fusion: About Us</title>
-    <!-- Required meta tags always come first -->
+    <title>Kitchen: Contact Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- build:css css/main.css  -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-social/bootstrap-social.css">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="icon" href="img/logo.png" type="image/x-icon">
-    <!-- endbuild -->
 </head>
 
 <body>
@@ -24,30 +20,30 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="/index.html"><img src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto p-0" href="./index.html"><img src="img/logo.png" height="auto" width="45"></a>
 
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>
-                            Home</a></li>
+                            <span>Home</span> </a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
-                                class="fa fa-info fa-lg"></span> About</a></li>
+                                class="fa fa-info fa-lg"></span> <span>About</span> </a></li>
                     <li class="nav-item active"><a class="nav-link" href="#"><span
-                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                                class="fa fa-address-card fa-lg"></span> <span>Contact</span> </a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="jumbotron">
+    <header class="jumbotron pb-3">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
+                <div class="col-12 col-sm-8">
+                    <h1 class="color-pink">Kitchen</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 ml-5 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
             </div>
@@ -55,20 +51,11 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">Contact Us</li>
-            </ol>
-            <div class="col-12">
-                <h3>Contact Us</h3>
-                <hr>
-            </div>
-        </div>
+     
 
         <div class="row row-content">
             <div class="col-12">
-                <h3>Location Information</h3>
+                <h2 class="color-yellow">Location Information</h2>
             </div>
             <div class="col-12 col-sm-4 offset-sm-1">
                 <h5>Our Address</h5>
@@ -76,14 +63,15 @@
                     121, Clear Water Bay Road<br>
                     Clear Water Bay, Kowloon<br>
                     HONG KONG<br>
-                    <i class="fa fa-phone"></i>: +852 1234 5678<br>
-                    <i class="fa fa-fax"></i>: +852 8765 4321<br>
+                    <i class="fa fa-phone"></i>: +216 1234 5678<br>
+                    <i class="fa fa-fax"></i>: +216 8765 4321<br>
                     <i class="fa fa-envelope"></i>:
-                    <a href="mailto:confusion@food.net">confusion@food.net</a>
+                    <a href="mailto:confusion@food.net">ihab@kitchen.net</a>
                 </address>
             </div>
             <div class="col-12 col-sm-6 offset-sm-1">
                 <h5>Map of our Location</h5>
+               <img src="img/map.png" class="img-fluid"  height="75px" width="250px" alt="Map"/>
             </div>
             <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
@@ -98,7 +86,7 @@
 
         <div class="row row-content">
             <div class="col-12">
-                <h3>Send us your Feedback</h3>
+                <h2 class="color-yellow">Send us your Feedback</h2>
             </div>
             <div class="col-12 col-md-9">
                 <form action="">
@@ -157,7 +145,7 @@
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            <button type="submit" class="btn color-pink-border white-background">Send Feedback</button>
                         </div>
                     </div>
                 </form>
@@ -173,7 +161,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4  col-sm-2">
-                    <h5>Links</h5>
+                    <h5 class="color-pink">Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/aboutus.html">About</a></li>
@@ -181,13 +169,15 @@
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
+                    <h5 class="color-pink">Our Address</h5>
                     <address>
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                        08 Rue Newton, Ariana 2088
+
+
+                        
+                        <br>
+                        <i class="fa fa-phone fa-lg"></i>:  +216 20202020<br>
+                      
                         <i class="fa fa-envelope fa-lg"></i>:
                         <a href="mailto:confusion@food.net">confusion@food.net</a>
                     </address>
@@ -210,18 +200,16 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2021 Souey Ihab</p>
+                    <p>© Copyright 2023 H<sup>2 </sup> I<sup>2</sup></p>
+
                 </div>
             </div>
         </div>
     </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="lib/jquery/dist/jquery.slim.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- endbuild -->
 </body>
 
 </html>

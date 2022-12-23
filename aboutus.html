@@ -2,17 +2,14 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- build:css css/main.css  -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
-     <!-- endbuild -->
     <title>Ristorsante Con Fusion: About Us</title>
     <link rel="icon" href="img/logo.png" type="image/x-icon">
 
@@ -24,30 +21,30 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="/index.html"><img src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto p-0" href="./index.html"><img src="img/logo.png" height="auto" width="45"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span>
-                            Home</a></li>
+                            <span> Home</span> </a></li>
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span>
-                            About</a></li>
-                    
+                            <span> About</span> </a></li>
+
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span
-                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                                class="fa fa-address-card fa-lg"></span> <span>Contact</span> </a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <header class="jumbotron">
+    
+    <header class="jumbotron pb-3">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h1>Rssistorante con Fusion</h1>
+                <div class="col-12 col-sm-8">
+                    <h1 class="color-pink">Kitchen</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 ml-5 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
             </div>
@@ -55,22 +52,11 @@
     </header>
 
     <div class="container">
-        <div class="row">
-            <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a> </li>
-                <li class="breadcrumb-item active">About Us </li>
-            </ol>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <h3>About Us</h3>
-                <hr>
-            </div>
-        </div>
+      
 
         <div class="row row-content">
             <div class="col-sm-6">
-                <h2>Our History</h2>
+                <h2 class="color-yellow">Our History</h2>
                 <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence
                     in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it
                     enjoys patronage from the A-list clientele in Hong Kong. Featuring four of the best three-star
@@ -81,7 +67,7 @@
             </div>
             <div class="col-sm">
                 <div class="card">
-                    <h3 class="card-header bg-primary text-white"> Facts At a Glance</h3>
+                    <h3 class="card-header color-pink-background text-white"> Facts At a Glance</h3>
                     <div class="card-body">
                         <dl class="row ">
                             <dt class="col-6">Started</dt>
@@ -113,7 +99,7 @@
 
         <div class="row row-content">
             <div class="col-12">
-                <h2>Corporate Leadership</h2>
+                <h2 class="color-yellow">Corporate Leadership</h2>
 
 
                 <div id="accordion">
@@ -121,7 +107,7 @@
                         <div class="card-header" role="tab" id="peterhead">
                             <h3 class="mb-0">
                                 <a data-toggle="collapse" data-target="#peter">
-                                    Peter Pan <small>Chief Epicurious Officer</small>
+                                    <span class="color-pink"> Peter Pan</span> <small>Chief Epicurious Officer</small>
                                 </a>
 
                             </h3>
@@ -150,7 +136,7 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="dannyhead">
                             <a data-toggle="collapse" data-target="#danny">
-                                <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
+                                <h3> <span class="color-pink"> Dhanasekaran Witherspoon</span> <small>Chief Food Officer</small></h3>
                             </a>
                         </div>
 
@@ -175,7 +161,7 @@
                             <div class="card-header" role="tab" id="agumbehead">
                                 <h3 class="mb-0">
                                     <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
-                                        Agumbe Tang <small>Chief Taste Officer</small>
+                                        <span class="color-pink"> Agumbe Tang</span> <small>Chief Taste Officer</small>
                                     </a>
                                 </h3>
                             </div>
@@ -202,13 +188,13 @@
                         <div class="card-header" role="tab" id="albertohead">
                             <h3 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" data-target="#alberto">
-                                    Alberto Somayya <small>Executive Chef</small>
+                                   <span class="color-pink">Souey ihab</span>  <small>Executive Chef</small>
                                 </a>
                             </h3>
                         </div>
                         <div class="collapse" id="alberto" data-parent="#accordion">
                             <div class="card-body">
-                              
+
                                 <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
                                     International
                                     experience
@@ -225,10 +211,10 @@
 
                 <div class="row row-content">
                     <div class="col-12 col-sm-9">
-                        <h2>Facts &amp; Figures </h2>
+                        <h2 class="color-yellow">Facts &amp; Figures </h2>
                         <div class="table-responsive">
                             <table class="table table-striped">
-                                <thead class="thead-dark">
+                                <thead class="thead color-pink-background text-white ">
                                     <tr>
                                         <th>&nbsp;</th>
                                         <th>2013</th>
@@ -278,23 +264,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2">
-                    <h5>Links</h5>
+                    <h5 class="color-pink">Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html">About</a></li>
-                        
+
                         <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5 offset-sm-1">
-                    <h5>Our Address</h5>
+                    <h5 class="color-pink">Our Address</h5>
                     <address class="address">
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        <i class="fa fa-phone fa-lg"></i> : +852 1234 5678<br>
-                        <i class="fa fa-fax fa-lg"></i> : +852 8765 4321<br>
-                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                        08 Rue Newton, Ariana 2088
+
+                        <br>
+                        <i class="fa fa-phone fa-lg"></i> :  +216 20202020<br>
+                         <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:Kitchen@food.tn">Kitchen@food.tn</a>
                     </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
@@ -315,5 +300,15 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2021 Souey Ihab</p>
-Con Fusion</p>
+                    <p>© Copyright 2023 H<sup>2 </sup> I<sup>2</sup></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/jquery/dist/jquery.slim.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
